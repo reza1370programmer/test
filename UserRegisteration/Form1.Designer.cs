@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -120,7 +120,7 @@
             // 
             // btnInsert
             // 
-            btnInsert.Location = new Point(438, 258);
+            btnInsert.Location = new Point(76, 79);
             btnInsert.Name = "btnInsert";
             btnInsert.Size = new Size(143, 42);
             btnInsert.TabIndex = 9;
@@ -160,8 +160,8 @@
             // Mobile
             // 
             Mobile.DataPropertyName = "Mobile";
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopLeft;
-            Mobile.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopLeft;
+            Mobile.DefaultCellStyle = dataGridViewCellStyle1;
             Mobile.HeaderText = "شماره تلفن";
             Mobile.Name = "Mobile";
             // 
@@ -190,7 +190,7 @@
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(587, 258);
+            btnUpdate.Location = new Point(91, 127);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(104, 42);
             btnUpdate.TabIndex = 13;
@@ -200,7 +200,7 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(328, 258);
+            btnDelete.Location = new Point(91, 31);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(104, 42);
             btnDelete.TabIndex = 14;
